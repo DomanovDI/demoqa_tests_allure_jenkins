@@ -26,7 +26,7 @@ repositories {
 
 dependencies {
     testImplementation (
-            'com.codeborne:selenide:7.0.2',
+            'com.codeborne:selenide:6.11.0',
             'org.junit.jupiter:junit-jupiter:5.10.0',
             'org.slf4j:slf4j-simple:2.0.7',
             'org.assertj:assertj-core:3.24.2',

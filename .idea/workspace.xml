@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8efe29e5-ae0e-4aa0-afe6-85e150de20f2" name="Changes" comment="change selenide version">
+    <list default="true" id="8efe29e5-ae0e-4aa0-afe6-85e150de20f2" name="Changes" comment="change getCity to if-else">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +59,14 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ddomanov/IdeaProjects/selenide_practice",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.demoqa_tests_allure_jenkins [test]">
+  <component name="RunManager" selected="Gradle.AutomationPracticeFormTests.automationPracticeFormTest">
     <configuration name="AutomationPracticeFormTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,10 +183,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AutomationPracticeFormTests.automationPracticeFormTest" />
         <item itemvalue="Gradle.demoqa_tests_allure_jenkins [test]" />
         <item itemvalue="Gradle.demoqa_tests_allure_jenkins [remote_test]" />
         <item itemvalue="Gradle.demoqa_tests_allure_jenkins [allureServe]" />
-        <item itemvalue="Gradle.AutomationPracticeFormTests.automationPracticeFormTest" />
         <item itemvalue="Gradle.AutomationPracticeFormTests" />
       </list>
     </recent_temporary>
@@ -222,12 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701850698657</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change getCity to if-else">
+      <option name="closed" value="true" />
+      <created>1701853207338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701853207338</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="change selenide version" />
-    <option name="LAST_COMMIT_MESSAGE" value="change selenide version" />
+    <MESSAGE value="change getCity to if-else" />
+    <option name="LAST_COMMIT_MESSAGE" value="change getCity to if-else" />
   </component>
 </project>

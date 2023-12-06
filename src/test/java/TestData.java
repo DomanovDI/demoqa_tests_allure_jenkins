@@ -20,14 +20,23 @@ public class TestData {
     String city = getCity();
 
     private String getCity(){
-        String cityItem = switch (state) {
-            case "NCR" -> faker.options().option("Delhi", "Gurgaon", "Noida");
-            case "Uttar Pradesh" -> faker.options().option("Agra", "Lucknow", "Merrut");
-            case "Haryana" -> faker.options().option("Karnal", "Panipat");
-            case "Rajasthan" -> faker.options().option("Jaipur", "Jaiselmer");
-            default -> null;
-        };
+        String cityItem = null;
 
+        if (state.equals("NCR")) {
+            cityItem = faker.options().option("Delhi", "Gurgaon", "Noida");
+        }
+
+        if (state.equals("Uttar Pradesh")) {
+            cityItem = faker.options().option("Agra", "Lucknow", "Merrut");
+        }
+
+        if (state.equals("Haryana")) {
+            cityItem = cityItem = faker.options().option("Karnal", "Panipat");
+        }
+
+        if (state.equals("Rajasthan")) {
+            cityItem = faker.options().option("Jaipur", "Jaiselmer");
+        }
         return cityItem;
     }
 }

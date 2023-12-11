@@ -103,7 +103,7 @@ public class AutomationPracticeFormPage {
 
     @Step("Set file")
     public AutomationPracticeFormPage setFile(String value) {
-        fileNameLocator.uploadFile(new File("src/test/resources/" + value));
+        fileNameLocator.uploadFromClasspath(value);
         return this;
     }
 

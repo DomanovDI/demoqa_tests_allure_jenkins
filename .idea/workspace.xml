@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8efe29e5-ae0e-4aa0-afe6-85e150de20f2" name="Changes" comment="change CalendarComponent">
+    <list default="true" id="8efe29e5-ae0e-4aa0-afe6-85e150de20f2" name="Changes" comment="correct filepath">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,10 +184,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.AutomationPracticeFormTests.automationPracticeFormTest" />
+        <item itemvalue="Gradle.AutomationPracticeFormTests" />
         <item itemvalue="Gradle.demoqa_tests_allure_jenkins [test]" />
         <item itemvalue="Gradle.demoqa_tests_allure_jenkins [remote_test]" />
         <item itemvalue="Gradle.demoqa_tests_allure_jenkins [allureServe]" />
-        <item itemvalue="Gradle.AutomationPracticeFormTests" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701857102106</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add systemProperties">
+      <option name="closed" value="true" />
+      <created>1702295122363</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702295122364</updated>
+    </task>
+    <task id="LOCAL-00007" summary="correct filepath">
+      <option name="closed" value="true" />
+      <created>1702299339063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702299339064</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,6 +264,8 @@
     <MESSAGE value="change selenide version" />
     <MESSAGE value="change getCity to if-else" />
     <MESSAGE value="change CalendarComponent" />
-    <option name="LAST_COMMIT_MESSAGE" value="change CalendarComponent" />
+    <MESSAGE value="add systemProperties" />
+    <MESSAGE value="correct filepath" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct filepath" />
   </component>
 </project>

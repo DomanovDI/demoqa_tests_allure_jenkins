@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8efe29e5-ae0e-4aa0-afe6-85e150de20f2" name="Changes" comment="change notes">
-      <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
+    <list default="true" id="8efe29e5-ae0e-4aa0-afe6-85e150de20f2" name="Changes" comment="change gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-notifications-4.6.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/notifications/allure-notifications-4.6.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notifications/notes" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -308,6 +310,7 @@
     <MESSAGE value="change filepath" />
     <MESSAGE value="change allure-notifications-4.6.1.jar" />
     <MESSAGE value="change notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="change notes" />
+    <MESSAGE value="change gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="change gitignore" />
   </component>
 </project>

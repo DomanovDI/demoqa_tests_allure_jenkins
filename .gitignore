@@ -45,3 +45,4 @@ bin/
 
 ### notifications ###
 notifications/telegram.json
+/.idea/

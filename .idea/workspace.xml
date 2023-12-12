@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8efe29e5-ae0e-4aa0-afe6-85e150de20f2" name="Changes" comment="correct filepath">
+    <list default="true" id="8efe29e5-ae0e-4aa0-afe6-85e150de20f2" name="Changes" comment="change filepath">
+      <change afterPath="$PROJECT_DIR$/allure-notifications-4.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.AutomationPracticeFormTests.automationPracticeFormTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ddomanov\IdeaProjects\demoqa_tests_allure_jenkins" />
+      <recent name="C:\Users\ddomanov\IdeaProjects\demoqa_tests_allure_jenkins\notifications" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.demoqa_tests_allure_jenkins [allureReport]">
     <configuration name="AutomationPracticeFormTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -115,6 +122,28 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="demoqa_tests_allure_jenkins [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="demoqa_tests_allure_jenkins [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -127,28 +156,6 @@
         <option name="taskNames">
           <list>
             <option value="allureServe" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="demoqa_tests_allure_jenkins [remote_test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="remote_test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.demoqa_tests_allure_jenkins [allureReport]" />
+        <item itemvalue="Gradle.demoqa_tests_allure_jenkins [allureServe]" />
         <item itemvalue="Gradle.AutomationPracticeFormTests.automationPracticeFormTest" />
         <item itemvalue="Gradle.AutomationPracticeFormTests" />
         <item itemvalue="Gradle.demoqa_tests_allure_jenkins [test]" />
-        <item itemvalue="Gradle.demoqa_tests_allure_jenkins [remote_test]" />
-        <item itemvalue="Gradle.demoqa_tests_allure_jenkins [allureServe]" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702299339064</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change CalendarComponent.java">
+      <option name="closed" value="true" />
+      <created>1702299669510</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702299669510</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change filepath">
+      <option name="closed" value="true" />
+      <created>1702300727980</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702300727980</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -266,6 +289,8 @@
     <MESSAGE value="change CalendarComponent" />
     <MESSAGE value="add systemProperties" />
     <MESSAGE value="correct filepath" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct filepath" />
+    <MESSAGE value="change CalendarComponent.java" />
+    <MESSAGE value="change filepath" />
+    <option name="LAST_COMMIT_MESSAGE" value="change filepath" />
   </component>
 </project>

@@ -6,5 +6,3 @@
 
 
 
-https://github.com/DomanovDI/demoqa_tests_allure_jenkins/assets/111723092/4ffc6fa6-fdb6-431c-a89b-47b5acbaaa1e
-
